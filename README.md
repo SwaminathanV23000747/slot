@@ -1,6 +1,6 @@
 # Ex03 Time Table
-## Date:
-13-03-24
+## Date:13-03-24
+
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -126,7 +126,10 @@ Execute the program using runserver command.
 
 ```
 ## OUTPUT
-![Screenshot 2024-03-18 132950](https://github.com/SwaminathanV23000747/slot/assets/148931113/ef147c95-7449-4c62-a587-1097da72d1cf)
+## serveroutput:
+![3-code](https://github.com/SwaminathanV23000747/slot/assets/148931113/ce3b85a9-eb07-447b-87a0-c1aeaa2a17a9)
+## clientoutput:
+![slotapp](https://github.com/SwaminathanV23000747/slot/assets/148931113/e0f6589c-5010-4459-81a3-c4a6d85b83c4)
 
 
 ## RESULT
