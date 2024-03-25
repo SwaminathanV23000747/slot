@@ -25,111 +25,124 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
-<!DOCTYPE html>
 <html>
-<head>
-<title>SEC Timetable</title>
+    <head>
+        <title>SLOT TIMETABLE-SWAMINATHAN.V</title>
 </head>
-<img src="sec.jpg"
+<body bgcolor="yellow">
+    <center>
+    <img src="/static/logo.png" height="100" width="540">
+    </center>
+<table border="3" cellspacing="4" cellpadding="6" align="center" bgcolor="lightgrey">
+<caption>SLOT TIMETABLE-SWAMINATHAN.V(212223110057)</caption>
+            <tr>
+               <th bgcolor="pink">Day/Time</th>
+               <th bgcolor="pink">Monday</th>
+               <th bgcolor="pink">Tuesday</th>
+               <th bgcolor="pink">Wednesday</th>
+               <th bgcolor="pink">Thursday</th>
+               <th bgcolor="pink">Friday</th>
+               <th bgcolor="pink">Saturday</th>
+          </tr>
+           <tr>
+               <td>8:00-10:00</td>
+               <td>CREATIVE SKILL</td>
+               <td>D.E</td>
+               <td>Fundamentals of web applications</td>
+               <td>D.E</td>
+               <td>FREE SLOT</td>
+               <td>PROBABILITY</td>
+          </tr>
+          <tr>
+               <td>10:00-12:00</td>
+               <td>Free Slot</td>
+               <td>Fundamentals of web applications</td>
+               <td>FREE SLOT</td>
+               <td>PROBABILITY</td>
+               <td>Fundamental of C</td>
+               <td>FREE SLOT</td>
+          </tr>
+          <tr>
+               <td>12:00-1:00</td>
+               <td colspan="6" align="center" bgcolor="skyblue">Lunch</td>
+          </tr>
+          <tr>
+               <td>1:00-3:00</td>
+               <td>Fundamentals of web applications</td>
+               <td>FREE SLOT</td>
+               <td>STATS</td>
+               <td>Free Slot</td>
+               <td>CN</td>
+               <td>STATS</td>
 
-<body >
-    <br>
-    <b>SLOT TIME TABLE - Aravind R. (212223230019)</b>
+          </tr>
+          <tr>
+               <td>3:00-5:00</td>
+               <td>Fundamentals of C</td>
+               <td>Free Slot</td>
+               <td>CN</td>
+               <td>FREE SLOT</td>
+               <td>FREE SLOT</td>
+               <td>Free Slot</td>
+         
+          </tr>
+<table border="3" cellspacing="4" cellpadding="6" align="center" bgcolor="lightgrey">
+<caption>SUBJECT DETAILS</caption>
+          <tr>
+               <th bgcolor="pink">S.no</th>
+               <th bgcolor="pink">Subject Code</th>
+               <th bgcolor="pink">Subject Name</th>
+               
+          </tr>
+          <tr>
+               <td>01</td>
+               <td>19EE404</td>
+               <td>Digital Electronics</td>
+           </tr>
+            <tr>
+               <td>02</td>
+               <td>19AI304</td>
+               <td>Fundamental of C programming</td>
+           </tr> <tr>
+               <td>03</td>
+               <td>19AI414</td>
+               <td>Fundamentals of web</td>
+           </tr>
+            <tr>
+               <td>04</td>
+               <td>19CS406</td>
+               <td>Computer Networks</td>
+           </tr>
+             <tr>
+               <td>05</td>
+               <td>19MA211</td>
+               <td>statistics</td>
+           </tr>
+            <tr>
+               <td>06</td>
+               <td>19MA222</td>
+               <td>Probability</td>
+           </tr>
+            <tr>
+               <td>07</td>
+               <td>19EY702</td>
+               <td>CREATIVE Skill</td>
+           </tr>
+            <tr>
+               <td>08</td>
+               <td>19AI303</td>
+               <td>EMPD</td>
+           </tr>
+          
 </body>
-<body>
-<table border="5" width="570">
-<tr>
-<th bgcolor="yellow">Day/Time</th>
-<th bgcolor="yellow">Monday</th>
-<th bgcolor="yellow">Tuesday</th>
-<th bgcolor="yellow">Wednesday</th>
-<th bgcolor="yellow">Thursday</th>
-<th bgcolor="yellow">Friday</th>
-</tr>
-<tr>
-<th bgcolor="yellow">8-10</th>
-<th bgcolor="cyan">EN</th>
-<th bgcolor="cyan">EN</th>
-<th bgcolor="cyan">FWAD</th>
-<th bgcolor="cyan">FREE SLOT</th>
-<th bgcolor="cyan">FREE SLOT</th>
-</tr>
-<tr>
-<th bgcolor="yellow">10-12</th>
-<th bgcolor="cyan">FREE SLOT</th>
-<th bgcolor="cyan">FWAD</th>
-<th bgcolor="cyan">FREE SLOT</th>
-<th bgcolor="cyan">CHE</th>
-<th bgcolor="cyan">PHY</th>
-</tr>
-<tr>
-<th bgcolor="yellow">12-1</th>
-<th colspan="5" align="center" bgcolor="cyan">LUNCH</th>
-</tr>
-<tr>
-<th bgcolor="yellow">1-3</th>
-<td bgcolor="cyan">FWAD</th>
-<th bgcolor="cyan">PY</th>
-<th bgcolor="cyan">FREE SLOT</th>
-<th bgcolor="cyan">FREE SLOT</th>
-<th bgcolor="cyan">PY</th>
-</tr>
-<tr>
-<th bgcolor="yellow">3-5</th>
-<th bgcolor="cyan">PHY</th>
-<th bgcolor="cyan">CHE</th>
-<th bgcolor="cyan">FWAD</th>
-<th bgcolor="cyan">PY</th>
-<th bgcolor="cyan">FREE SLOT</th>
-</tr>
-</table>
-<br>
-<table border="5" width="570">
-<tr>
-<td>S.NO.</td>
-<td>Subject Code</td>
-<td>Subject Name</td>
-</tr>
-<tr>
-<td>1.</td>
-<td>19AI414</td>
-<td>Fundamentals of Web Application Developement (FWAD)</td>
-</tr>
-<tr>
-<td>2.</td>
-<td>19EN101</td>
-<td>Communicative Enflish (EN)</td>
-</tr>
-<tr>
-<td>3.</td>
-<td>19PH214</td>
-<td>Physics for Quantum Computing (PHY)</td>
-</tr>
-<tr>
-<td>4.</td>
-<td>19CY205</td>
-<td>Principles of Chemistry in Engineering (CHE)</td>
-</tr>
-<tr>
-<td>5.</td>
-<td>19AI301C</td>
-<td>Python and linear Algebra (PY)</td>
-</tr>
-<tr>
-<td>6.</td>
-<td>22HS101</td>
-<td>Tamil (Tam)</td>
-</tr>
-</table>
-</body>
-</html>
+</html>0
 
 ```
 ## OUTPUT
-## serveroutput:
-![3-code](https://github.com/SwaminathanV23000747/slot/assets/148931113/ce3b85a9-eb07-447b-87a0-c1aeaa2a17a9)
-## clientoutput:
-![slotapp](https://github.com/SwaminathanV23000747/slot/assets/148931113/e0f6589c-5010-4459-81a3-c4a6d85b83c4)
+
+![Screenshot 2024-03-25 221440](https://github.com/SwaminathanV23000747/slot/assets/148931113/1c6b2dca-b9c9-43a7-ac99-8c59f26f9124)
+![Screenshot 2024-03-25 225802](https://github.com/SwaminathanV23000747/slot/assets/148931113/a1e54647-ff7d-4bb9-9977-9dcd51de8d00)
+
 
 
 ## RESULT
